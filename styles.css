@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    margin: auto; 
+    width:fit-content;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color : rgb(149, 10, 10);
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+#container{ 
+   box-sizing: content-box;
+    
+    border: 5px black groove ;
+    border-left-width: 25px;
+    border-right-width: 25px;
+    display: block;
+    height: 250px;
+}
+#inputSelect{
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+.radioBtns{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

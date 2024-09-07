@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title> Temperature Conversion </title>
+            <meta charset="utf-8">
+            <meta name="viewpoint" content="width=device - width, intital-scale= 1.0"> 
+            <link rel="stylesheet" href="styles.css">
+            
+        </head>
+        <body>
+            <h1>Temperature Conversion</h1>
+            <div id="container">
+                <div id="inputSelect">
+                <input id="field" type="number" placeholder=" Type number here." /> <br>
+
+                 <input id="Fahrenheit" type="radio" name="temperature" class="radioBtns"> 
+                 <!-- the radio group must share the same name for the radio buttons to deselect any other selected radio button -->
+                 <label for="Fahrenheit"> Celsius -> Fahrenheit </label> <br>
+                 <input id="celsius" type="radio" name="temperature" class="radioBtns"> 
+                 <label for="celsius"> Fahrenheit -> Celsius </label> <br>
+
+            </div>
+            
+            <button id="resultbtn" onclick="conversion()"> Results </button>
+        <button id="reset" onclick="reset()"> Reset </button>
+            <p id="results"> </p>
+        </div>
+            <script src="script.js"></script>
+        </body>
+        <footer>
+
+        </footer>
+    </html>
